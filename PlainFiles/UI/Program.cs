@@ -37,6 +37,22 @@
 //                list.Remove(lineToRemove!);
 //                logger.WriteLog("info", $"Line removed: {lineToRemove}");
 //                break;
+//Ingresar un texto que desea eliminar por completo
+//            case "4":
+//                Console.Write("Ingrese el texto que desea eliminar por completo: ");
+//                string target = Console.ReadLine();
+//                // Elimina todos los elementos que coincidan exactamente
+//                list.RemoveAll(item => item == target);
+//                Console.WriteLine("Todas las ocurrencias han sido eliminadas.");
+//                logger.WriteLog("info", $"Todas las ocurrencias de '{target}' eliminadas.");
+//                break;
+
+//            case "5":
+//                list.Sort();
+//                Console.WriteLine("La lista ha sido ordenada alfabéticamente.");
+//                logger.WriteLog("info", "Lista ordenada alfabéticamente.");
+//                break;
+//
 //            case "6":
 //                textFile.WriteLines(list.ToArray());
 //                Console.WriteLine("Changes saved.");
